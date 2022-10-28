@@ -8,5 +8,6 @@ class Magazine
 
   end
 
+c1 = Magazine.new
 
 end
