@@ -11,13 +11,14 @@ author2 = Author.new("Anna")
 
 
 magazine1 = Magazine.new("Forbes", "entertainment")
-magazine1 = Magazine.new("Vogue", "Fashion")
-magazine1 = Magazine.new("Time", "News")
+magazine2 = Magazine.new("Vogue", "Fashion")
+magazine3 = Magazine.new("Time", "News")
+
 
 article1 = Article.new("Steve", "Forbes", "Wealth")
 article2 = Article.new("Steve", "Time", "Market")
-article1 = Article.new("Anna", "Vogue", "Beauty")
-
+article3 = Article.new("Anna", "Vogue", "Beauty")
+article3.title
 
 
 
