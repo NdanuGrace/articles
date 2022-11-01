@@ -18,7 +18,6 @@ magazine3 = Magazine.new("Time", "News")
 article1 = Article.new("Steve", "Forbes", "Wealth")
 article2 = Article.new("Steve", "Time", "Market")
 article3 = Article.new("Anna", "Vogue", "Beauty")
-article3.title
 
 
 
