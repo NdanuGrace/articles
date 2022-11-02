@@ -5,7 +5,6 @@ class Magazine
   attr_writer :name, :category
 
   @@all = []
-  
   def initialize(name, category)
     @name = name
     @category = category
@@ -53,9 +52,10 @@ class Magazine
     end
   end
 #Returns an array of authors who have written more than 2 articles for the magazine
-  def contributing_authors
+ 
+def contributing_authors
     self.contributors.filter do |author|
-       author.articles.length > 2
+       author.articles.count > 2
     end
   end
 
